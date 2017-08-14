@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: random
+# key: rand
+# --
+`(msc-insert-random-string 6)`

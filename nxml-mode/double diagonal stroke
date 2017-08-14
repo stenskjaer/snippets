@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: double diagonal stroke 
+# key: p//
+# --
+`(delete-char -1)`<pc type="double-diagonal-stroke">//</pc>

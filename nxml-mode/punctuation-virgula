@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: punctuation-virgula
+# key: /
+# --
+`(delete-backward-char 1)`<pc type="pilcrow"/>

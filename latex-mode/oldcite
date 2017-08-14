@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: oldcite
+# key: oldcite
+# --
+\old$1cite${2:[${3:ref}]}{${4:arist.DA}}

@@ -2,11 +2,7 @@
 # name: item
 # key: item
 # --
-<item id="${1:id}" type="${2:quaestio/lectio}">
-  <fileName filestem="$1" />
-  <title>$3</title>
-  <questionTitle>$4</questionTitle>
-  ${5:<witness ref="$6">
-    <folio>$7</folio>
-  </witness>}
-</item>$9
+<item id="${1:slug+ref}" type="${2:eg:lectio/quaestio}">
+  <fileName filestem="$1"/>
+  <title>$3</title>$4
+</item>$0

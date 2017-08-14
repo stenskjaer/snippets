@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: intelligere
+# key: intelligere
+# --
+<seg ana="#intelligere">$1</seg>$0

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Region-citation
+# binding: <f4> c
+# --
+<cit>
+  <ref>$1</ref>
+  <quote>
+    `yas-selected-text`
+  </quote>
+</cit>

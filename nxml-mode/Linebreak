@@ -2,4 +2,4 @@
 # name: Linebreak
 # key: l
 # --
-<lb ed="#$1"${2: break="no"}/>$0
+<lb ed="#$1"/>$0

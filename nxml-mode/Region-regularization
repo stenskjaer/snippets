@@ -1,0 +1,5 @@
+# key: nil
+# name: Region-regularization
+# binding: <f4> r
+# --
+<choice><orig>`yas-selected-text`</orig><reg>$0</reg></choice>

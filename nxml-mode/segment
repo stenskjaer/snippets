@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: segment
+# key: seg
+# --
+<seg ana="#$1">$2</seg>$0

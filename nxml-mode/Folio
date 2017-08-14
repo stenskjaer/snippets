@@ -1,5 +1,5 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: Milestone folio
-# key: fol
+# -*- mode: snippet -*-
+# name: folio
+# key: folio
 # --
-<milestone unit="folio" n="$1"/>$0
+<folio${1: c="$2"}>$3</folio>$0

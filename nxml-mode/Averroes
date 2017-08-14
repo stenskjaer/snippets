@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Averroes
+# key: Averroes
+# --
+<name ref="#Averroes">$1</name>$0

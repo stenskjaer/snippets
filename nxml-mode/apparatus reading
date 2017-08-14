@@ -3,5 +3,5 @@
 # key: app
 # --
 <app>
-<rdg wit="$1">$2</rdg>
+<lem wit="$1">$2</lem>
 $3</app>$0

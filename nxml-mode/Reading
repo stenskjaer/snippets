@@ -2,4 +2,4 @@
 # name: Reading
 # key: rdg
 # --
-<rdg${1: resp="${2:responsible}"}${3: wit="${4:witnes}"}>$5</rdg>
+<rdg${1: wit="${2:witnes}"}${3: type="${4:type}"}>$5</rdg>

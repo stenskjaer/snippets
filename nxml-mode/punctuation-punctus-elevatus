@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: punctuation-punctus-elevatus
+# key: ;
+# --
+`(delete-backward-char 1)`<pc type="punctus-elevatus"/>
