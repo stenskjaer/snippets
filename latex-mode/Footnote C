@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Footnote C
+# key: fnc
+# --
+\edtext{$1}{\Cfootnote{$2}} $0

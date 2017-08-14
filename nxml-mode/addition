@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Addition
+# key: add
+# --
+<add${1: hand="${2:hand}"}${3: place="${4:place}"}>$5</add>$0

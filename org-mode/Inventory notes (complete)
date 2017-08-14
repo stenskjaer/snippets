@@ -1,0 +1,138 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Inventory notes (complete)
+# key: inv
+# --
+* $1
+
+** I. Location
+
+*** i. Geographical area
+
+*** ii. Region
+
+*** iii. Site
+
+** II. Name
+
+*** i. Full name (orig. language)
+
+*** ii. Full name (transliterated)
+
+** III. Date
+
+*** Date(s)
+
+** IV. Name and Terminology
+
+*** i. Name in other forms
+
+*** ii. Name elements
+Terms in transliteration
+
+List: 
+- cultic
+- ethnic
+- geographical
+- heroic
+- kinship-related
+- personal
+- professional
+- status-related
+- theophoric
+- topographical
+- other
+
+*** iii. Descriptive terms
+E.g.: Koinon, eranos, synodos, thiasos (not just in the name)
+
+** V. Sources
+
+*** i. Source(s)
+Remember date.
+Line numbers if long inscriptions.
+
+**** a. Source type(s)
+
+**** b. Document(s) typology
+
+**** c. Physical format(s)
+
+*** ii. Source(s) provenance
+
+** VI. Built and Visual Place
+
+*** i. Archaeological remains
+
+*** ii. References to buildings/objects
+
+** VII. Organization
+
+*** i. Founder(s)
+
+*** ii. Leadership
+
+*** iii. Members
+
+*** iv. Officials
+
+*** v. Other staff
+
+*** vi. Laws and rules
+
+*** vii. Judicial system
+
+*** viii. Obligations
+
+*** ix. Privileges
+
+** VIII. Property and Possessions
+
+*** i. Trasury/funds
+
+*** ii. Realty
+
+*** iii. Income
+
+*** iv. Endowments
+
+** IX. Membership
+
+*** i. Number
+
+*** ii. Gender
+
+*** iii. Age
+
+*** iv. Status
+
+*** v. Relations
+
+** X. Activities
+
+*** i. Assemblies
+
+*** ii. Meetings & Events
+
+*** iii. Worship
+
+*** iv. Honours/other activities
+
+** XI. Interaction
+
+*** i. Local interaction
+
+*** ii. Interaction abroad
+
+** XII. Notes
+
+*** i. Comments
+
+*** ii. Poland concordance
+
+*** iii. Bibliography
+
+** XIII. Evalutaion
+
+*** i. Private association
+
+*** ii. Historical authenticity

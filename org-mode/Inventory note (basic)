@@ -1,0 +1,16 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Inventory note (basic)
+# key: invb
+# --
+** $1${2:
+*** II. Name
+${3: **** i. Full name (orig. language)
+${4: note}}
+${5: **** ii. Full name (transliterated)
+${6: note}}}${7:
+*** XIII. Evaluation
+${8: **** i. Private association
+${9: note}}
+${10:**** ii. Historical authenticity
+${11: note}}}
+$0

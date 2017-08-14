@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: <name type="authority" lem="Aristoteles">...</name>
+# key: Arist
+# --
+<name type="authority" lem="Aristoteles">$1</name>$0

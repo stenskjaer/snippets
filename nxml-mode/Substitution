@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Substitution
+# key: subst
+# --
+<subst${1: hand="${2:hand}"}>
+<del${3: rend="${4:rendition}"}>$5</del>
+<add${6: place="${7:place}"}>$8</add>
+</subst>$0
+ 

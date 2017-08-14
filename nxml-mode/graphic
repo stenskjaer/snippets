@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: graphic
+# key: graphic
+# --
+<unclear>$1<graphic url="img/`(insert-random-string)`$2.png"/></unclear>$0

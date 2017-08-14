@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Apparatus reading
+# key: app
+# --
+<app>
+<rdg wit="$1">$2</rdg>
+$3</app>$0

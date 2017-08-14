@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Regularization
+# key: reg
+# --
+<choice>
+  <orig>$1</orig>
+  <reg>$2</reg>
+</choice>$0

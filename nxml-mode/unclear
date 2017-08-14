@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: unclear
+# key: ?
+# --
+<unclear>$1</unclear>$0

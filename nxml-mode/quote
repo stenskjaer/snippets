@@ -1,0 +1,4 @@
+#contributor : Anders Bach Nielsen <abachn@abachn.net>
+#name : <quote>...</quote>
+# --
+<quote${1: source="${2:source}"}>$0</quote>

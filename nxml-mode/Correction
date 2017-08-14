@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Correction
+# key: corr
+# --
+<choice>
+<sic>$1</sic>
+<corr>$2</corr>
+</choice>$0

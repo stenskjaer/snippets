@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Philosophus
+# key: phs
+# --
+<name ref="#Aristotle">$1</name>$0

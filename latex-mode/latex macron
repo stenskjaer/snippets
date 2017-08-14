@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: latex macron
+# key: =
+# --
+\={$1}$0

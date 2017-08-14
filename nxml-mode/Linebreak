@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Linebreak
+# key: l
+# --
+<lb ed="#$1"${2: break="no"}/>$0

@@ -1,0 +1,76 @@
+# -*- mode: snippet -*-
+# name: scrartcl document
+# key: artcl
+# --
+
+\documentclass[a4paper,11pt]{scrartcl}
+
+% Indstilling af xelatex
+\usepackage{fontspec} 
+\usepackage{url}
+\usepackage[no-sscript]{xltxtra}
+\usepackage{paralist}
+\usepackage{amsmath}
+\usepackage[bottom]{footmisc}
+
+
+\newcommand*\myfont{Brill}
+\setmainfont[Mapping=tex-text, Numbers=OldStyle]{\myfont}
+
+\usepackage{polyglossia}
+\setmainlanguage{danish}
+\setotherlanguages{greek,latin}
+\setkeys{variant=ancient}
+\newfontfamily\greekfont[Script=Greek]{\myfont}
+
+% Biblatex
+\usepackage[bibstyle=authoryear, citestyle=authoryear-icomp, usetranslator=true, url=false, isbn=false, firstinits=true]{biblatex}
+%\usepackage[bibstyle=draft, citestyle=draft, usetranslator=true, url=false, isbn=false, firstinits=true]{biblatex}
+\DefineBibliographyStrings{danish}{%
+	references={Bibliografi},
+	editor={ed.},
+	editors={eds.},
+	in={in: },
+	andothers={et al.},
+	page={},
+	pages={},
+}
+\bibliography{/Users/Michael/Documents/Filologi/Litteratur/Databaser/litteratur}
+\renewcommand*{\postnotedelim}{\addcolon }
+\renewcommand*{\bibpagespunct}{\addcolon }
+\AtEveryBibitem{%
+  \clearfield{day}%
+  \clearfield{month}%
+  \clearfield{endday}%
+  \clearfield{endmonth}%
+}
+
+
+% Titel
+\newcommand*\mytitle{$1}
+\newcommand*\mydate{\today}
+
+% Headers og footers
+\usepackage{fancyhdr}
+\setlength{\headheight}{12.5pt}
+ 
+\pagestyle{fancyplain}
+ 
+\lhead{\mytitle}
+\chead{}
+\rhead{Michael S. Christensen}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+
+\title{\mytitle}
+\author{Michael Stenskjær Christensen}
+\date{\mydate}
+
+
+\begin{document}
+$0
+
+
+\end{document}

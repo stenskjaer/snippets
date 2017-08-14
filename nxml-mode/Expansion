@@ -1,0 +1,4 @@
+# key: expan
+# name: Expansion
+# --
+<expan${1: cert="${2:certainty}"}>$3</expan>$0

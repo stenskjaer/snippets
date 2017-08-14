@@ -1,0 +1,8 @@
+;;; Compiled snippets and support files for `fundamental-mode'
+;;; Snippet definitions:
+;;;
+(yas-define-snippets 'fundamental-mode
+                     '(("gitignore" "\n## Core latex/pdflatex auxiliary files:\n*.aux\n*.lof\n*.log\n*.lot\n*.fls\n*.out\n*.toc\n*.pdf\n\n## Intermediate documents:\n*.dvi\n# these rules might exclude image files for figures etc.\n# *.ps\n# *.eps\n# *.pdf\n\n## Bibliography auxiliary files (bibtex/biblatex/biber):\n*.bbl\n*.bcf\n*.blg\n*-blx.aux\n*-blx.bib\n*.run.xml\n\n## Build tool auxiliary files:\n*.fdb_latexmk\n*.synctex.gz\n*.synctex.gz(busy)\n*.pdfsync\n\n## Auxiliary and intermediate files from other packages:\n\n# algorithms\n*.alg\n*.loa\n\n# amsthm\n*.thm\n\n# beamer\n*.nav\n*.snm\n*.vrb\n\n#(e)ledmac/(e)ledpar\n*.end\n*.[1-9]\n*.[1-9][0-9]\n*.[1-9][0-9][0-9]\n*.[1-9]R\n*.[1-9][0-9]R\n*.[1-9][0-9][0-9]R\n\n# glossaries\n*.acn\n*.acr\n*.glg\n*.glo\n*.gls\n\n# hyperref\n*.brf\n\n# listings\n*.lol\n\n# makeidx\n*.idx\n*.ilg\n*.ind\n*.ist\n\n# minitoc\n*.maf\n*.mtc\n*.mtc0\n\n# minted\n*.pyg\n\n# nomencl\n*.nlo\n\n# sagetex\n*.sagetex.sage\n*.sagetex.py\n*.sagetex.scmd\n\n# sympy\n*.sout\n*.sympy\nsympy-plots-for-*.tex/\n\n# todonotes\n*.tdo\n\n# xindy\n*.xdy\n\n### OSX ###\n.DS_Store\n.AppleDouble\n.LSOverride\n\n# Icon must end with two \\r\nIcon\n\n\n# Thumbnails\n._*\n\n# Files that might appear on external disk\n.Spotlight-V100\n.Trashes\n\n# Directories potentially created on remote AFP share\n.AppleDB\n.AppleDesktop\nNetwork Trash Folder\nTemporary Items\n.apdisk\n" "gitignore" nil nil nil "/Users/michael/emacs/snippets/standard/fundamental-mode/gitignore" nil nil)))
+
+
+;;; Do not edit! File generated at Wed Jan 27 11:20:25 2016

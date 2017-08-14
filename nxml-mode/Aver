@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Averroes
+# key: aver
+# --
+<name type="authority" lem="Averroes">$1</name>$0

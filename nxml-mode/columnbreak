@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: columnbreak
+# key: cb
+# --
+<cb n="$1"/>$0

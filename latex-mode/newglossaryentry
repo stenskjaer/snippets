@@ -1,0 +1,9 @@
+# key: gl
+# name: newglossaryentry
+# --
+\newglossaryentry{${1:AC}}
+{
+name=${2:Andrea Crotti}${3:,
+plural=${4:plural}}${5:,
+description=${6:description}}
+}

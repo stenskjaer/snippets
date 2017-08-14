@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: choice
+# key: choice
+# --
+<choice><abbr>$1</abbr><expan${2: cert="${3:certainty}"}>$4</expan>$0</choice>

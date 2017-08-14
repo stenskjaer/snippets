@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Flash, level 3
+# key: fl3
+# --
+
+*** $1: :drill:
+    
+    $1
+
+**** Oversættelse:
+     
+     $2

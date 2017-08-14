@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Authority
+# key: auth
+# --
+<name type="authority" lem="$1">$2</name>$0

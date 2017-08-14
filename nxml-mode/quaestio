@@ -1,0 +1,14 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: quaestio
+# key: quaestio
+# --
+<item type="quaestio">
+  <fileName filestem="$1" />
+  <title>${2:Quaestio x}</title>
+  <questionTitle>${3:Utrum ...}</questionTitle>
+  <hasWitnesses>
+    <witness ref="$4">
+      <folio>$5</folio>
+    </witness>
+  </hasWitnesses>
+</item>

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: itemquaest
+# key: itemquaest
+# --
+<item id="$1-l$2q$3" type="quaestio">
+  <fileName filestem="$1-l$2q$3" />
+  <title>Liber $2, quaestio $3</title>
+  <questionTitle>$4</questionTitle>
+  ${5:<witness ref="$6">
+    <folio>$7</folio>
+  </witness>}
+</item>$9

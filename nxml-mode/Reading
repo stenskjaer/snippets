@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Reading
+# key: rdg
+# --
+<rdg${1: resp="${2:responsible}"}${3: wit="${4:witnes}"}>$5</rdg>

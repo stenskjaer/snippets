@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Superscript
+# key: super
+# --
+<hi rend="superscript">$1</hi>$0

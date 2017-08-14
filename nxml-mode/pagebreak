@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: pagebreak
+# key: pb
+# --
+<pb n="$1"/>$0

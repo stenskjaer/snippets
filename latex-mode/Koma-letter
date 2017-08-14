@@ -1,0 +1,44 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Koma-letter
+# key: letter
+# --
+
+\documentclass[DINmtext, pagenumber=footright, parskip=half-,%
+                fromalign=left, fromphone=true,%
+                fromemail=true, fromurl=false, %
+                fromlogo=false, fromrule=false, %
+                firsthead=false, addrfield=true, %
+                backaddress=true, 12pt] {scrlttr2}
+
+\usepackage[latin1]{inputenc}
+\usepackage{polyglossia}
+\setmainlanguage{$1}
+\usepackage{fontenc}
+
+
+\pagestyle{plain}
+
+\setkomavar{fromname}{Michael S. Christensen}
+\setkomavar{fromaddress}{Bisiddervej 33, 3. th}
+\setkomavar{fromzipcode}{2400 København S}
+\setkomavar{fromemail}{michaelsc@hum.ku.dk}
+\setkomavar{signature}{Michael Stenskjær Christensen}
+\setkomavar{subject}{$2}
+
+
+\date{$3, \today}
+\begin{document}
+\begin{letter}{Adresse}
+
+
+\opening{Kære $4}
+
+$0
+
+\closing{Closing}
+
+\encl{Evt. vedlæg}
+
+
+\end{letter}
+\end{document}
