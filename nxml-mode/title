@@ -1,4 +1,4 @@
 #contributor : Anders Bach Nielsen <abachn@abachn.net>
 #name : <title>...</title>
 # --
-<title>$1</title>
+<title${1: ref="${2:#title}"}>$3</title>

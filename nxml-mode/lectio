@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: lectio
+# key: lectio
+# --
+<item id="${1:id}-${2:ref}" type="lectio">
+  <fileName filestem="$1-$2"/>
+  ${3:<title>Liber $4, Lectio $5</title>
+  }${6:<lemma>
+    $7
+  </lemma>}
+  <hasWitnesses>
+    <witness ref="$8">
+      <folio${9: c="$10"}>$11</folio>$12
+    </witness>
+  </hasWitnesses>
+</item>$0

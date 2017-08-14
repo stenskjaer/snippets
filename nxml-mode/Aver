@@ -2,4 +2,4 @@
 # name: Averroes
 # key: aver
 # --
-<name type="authority" lem="Averroes">$1</name>$0
+<name ref="#Averroes">$1</name>$0

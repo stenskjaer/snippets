@@ -1,7 +1,6 @@
-# -*- mode: snippet -*-
-# name: witness
 # key: witness
+# name: witness
 # --
 <witness ref="$1">
-  <folio>$2</folio>$3
-</witness>$4
+  <folio${2: c="$3"}>$4</folio>$5
+</witness>$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: punctuation-horizontal-stroke
+# key: |
+# --
+`(delete-backward-char 1)`<pc type="horizontal-stroke"/>

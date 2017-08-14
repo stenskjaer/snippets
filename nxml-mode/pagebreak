@@ -2,4 +2,4 @@
 # name: pagebreak
 # key: pb
 # --
-<pb n="$1"/>$0
+<pb ed="#${1:id} n="${2:142-r}"/>$0

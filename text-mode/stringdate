@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: stringdate
+# key: stringdate
+# --
+`(msc/insert-current-date-string)`

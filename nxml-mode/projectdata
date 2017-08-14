@@ -1,0 +1,41 @@
+# -*- mode: snippet -*-
+# name: projectdata
+# key: projectdata
+# --
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+  <header>
+    <authorName>${1:author}</authorName>
+    <commentaryName>${2:title}</commentaryName>
+    <commentaryid>${3:id}</commentaryid>
+    <commentaryslug>${4:slug}</commentaryslug>
+    <authorUri>http://scta.info/resource/person/PlacidusAegidiusMelander</authorUri>
+  	<parentUri>http://scta.info/text/melanderdeanima/commentary</parentUri>
+  	<textfilesdir>/Users/jcwitt/Projects/scta/scta-texts/melanderdeanima/</textfilesdir>
+    <webbase>null</webbase>
+    <questionListSource></questionListSource>
+    <questionListOriginalEditor>Michael Stenskjær Christensen</questionListOriginalEditor>
+    <questionListEncoder>Michael Stenskjær Christensen</questionListEncoder>
+  	<!-- possible metadata should go here or be added elsewhere 
+  	-->
+    <hasWitnesses>
+      <witness id="$5">
+        <slug>${6:eg:dig55}</slug>
+        <title>${7:eg:Oxford, Bodleian Library, Digby 55}</title>
+        <initial>${8:D}</initial>
+      </witness>
+    </hasWitnesses>
+  </header>
+  <div id="body" xml:lang="la">
+    <item id="${9:slug+item-ref}">
+    	<fileName filestem="$9"/>
+    	<title>${10:item-title}</title>
+    	<questionTitle/>
+    	<hasWitnesses>
+    		<witness ref="#${11:wit}">
+    			<folio>${12:fol}</folio>
+    		</witness>
+    	</hasWitnesses>
+    </item>
+	</div>    
+</listofFileNames>
