@@ -11,4 +11,4 @@
                        ("quote" "#+BEGIN_QUOTE\n	$1 \n#+END_QUOTE\n$0" "Block quote" nil nil nil "/Users/Michael-macbook/.emacs.d/private/snippets/org-mode/Block quote" nil nil)))
 
 
-;;; Do not edit! File generated at Mon Aug 14 15:27:46 2017
+;;; Do not edit! File generated at Mon Aug 14 15:32:10 2017
