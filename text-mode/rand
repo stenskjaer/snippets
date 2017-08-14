@@ -1,0 +1,4 @@
+# key: rand
+# name: rand
+# --
+`(msc-insert-random-string 6)`
